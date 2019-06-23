@@ -1,15 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.28902.138
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{041A6CB8-31D8-484A-B678-89DB2C120E23}"
+	ProjectSection(SolutionItems) = preProject
+		scripts\git-clone-all.sh = scripts\git-clone-all.sh
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "compose", "compose", "{24E94928-D6D3-4FC0-B564-A50F5DA9749A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{490D5A06-F6BA-4941-8A2A-D7A3E005D685}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CustomerApi", "CustomerApi", "{60E1EDCE-9342-4F79-A464-C17B0BADA02C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{A531EF62-149A-4F9D-9031-75E6EB6DDE7F}"
 EndProject
@@ -19,23 +20,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{B0A13D4F
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{5279F2B1-D276-4C32-8D1D-5C2DF0A65D7A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Accoon.Pitshop.CustomerApi.Application", "..\Pitshop.CustomerManagement\src\Pitshop.CustomerApi\Accoon.Pitshop.CustomerApi.Application\Accoon.Pitshop.CustomerApi.Application.csproj", "{277E1BC9-B2A8-4AB1-9E1F-D3B3A6F49F7F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Accoon.Pitshop.CustomerApi.Application", "..\Pitstop-CustomerManagement\Pitstop-CustomerManagement\src\Pitshop.CustomerApi\Accoon.Pitshop.CustomerApi.Application\Accoon.Pitshop.CustomerApi.Application.csproj", "{277E1BC9-B2A8-4AB1-9E1F-D3B3A6F49F7F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presenter", "Presenter", "{81609441-4AB1-48E4-8217-019B73B5F08C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Accoon.Pitshop.CustomerApi.Presenter", "..\Pitshop.CustomerManagement\src\Pitshop.CustomerApi\Accoon.Pitshop.CustomerApi.Presenter\Accoon.Pitshop.CustomerApi.Presenter.csproj", "{595489CB-1DD7-420E-8B2F-7EC24992C3E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Accoon.Pitshop.CustomerApi.Presenter", "..\Pitstop-CustomerManagement\Pitstop-CustomerManagement\src\Pitshop.CustomerApi\Accoon.Pitshop.CustomerApi.Presenter\Accoon.Pitshop.CustomerApi.Presenter.csproj", "{595489CB-1DD7-420E-8B2F-7EC24992C3E0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{B747CC1A-0F15-45EE-ABF2-0FB777BC6A75}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Accoon.Pitshop.CustomerApi.Domain", "..\Pitshop.CustomerManagement\src\Pitshop.CustomerApi\Accoon.Pitshop.CustomerApi.Domain\Accoon.Pitshop.CustomerApi.Domain.csproj", "{7AEC939E-3B9D-4C2E-B1EE-2B1D7995178A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Accoon.Pitshop.CustomerApi.Domain", "..\Pitstop-CustomerManagement\Pitstop-CustomerManagement\src\Pitshop.CustomerApi\Accoon.Pitshop.CustomerApi.Domain\Accoon.Pitshop.CustomerApi.Domain.csproj", "{7AEC939E-3B9D-4C2E-B1EE-2B1D7995178A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infastructure", "Infastructure", "{06ED3EBE-DBDB-4870-8E4E-2D3FBEB2FA4A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Accoon.Pitshop.CustomerApi.Infastructure", "..\Pitshop.CustomerManagement\src\Pitshop.CustomerApi\Accoon.Pitshop.CustomerApi.Infastructure\Accoon.Pitshop.CustomerApi.Infastructure.csproj", "{CEDB6FFE-2C00-4053-AA40-9B629D352189}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Accoon.Pitshop.CustomerApi.Infastructure", "..\Pitstop-CustomerManagement\Pitstop-CustomerManagement\src\Pitshop.CustomerApi\Accoon.Pitshop.CustomerApi.Infastructure\Accoon.Pitshop.CustomerApi.Infastructure.csproj", "{CEDB6FFE-2C00-4053-AA40-9B629D352189}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Persistence", "Persistence", "{688EFDC8-5629-4D7F-9653-DB490CBB3B71}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Accoon.Pitshop.CustomerApi.Persistence", "..\Pitshop.CustomerManagement\src\Pitshop.CustomerApi\Accoon.Pitshop.CustomerApi.Persistence\Accoon.Pitshop.CustomerApi.Persistence.csproj", "{ABB62996-59FB-43DF-9672-251892BB00F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Accoon.Pitshop.CustomerApi.Persistence", "..\Pitstop-CustomerManagement\Pitstop-CustomerManagement\src\Pitshop.CustomerApi\Accoon.Pitshop.CustomerApi.Persistence\Accoon.Pitshop.CustomerApi.Persistence.csproj", "{ABB62996-59FB-43DF-9672-251892BB00F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -68,10 +69,9 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{60E1EDCE-9342-4F79-A464-C17B0BADA02C} = {490D5A06-F6BA-4941-8A2A-D7A3E005D685}
-		{A531EF62-149A-4F9D-9031-75E6EB6DDE7F} = {60E1EDCE-9342-4F79-A464-C17B0BADA02C}
-		{E9B0C4EC-7EE1-4F04-9E46-8111B93D269E} = {60E1EDCE-9342-4F79-A464-C17B0BADA02C}
-		{B0A13D4F-6324-49A4-94B2-2F3867B84688} = {60E1EDCE-9342-4F79-A464-C17B0BADA02C}
+		{A531EF62-149A-4F9D-9031-75E6EB6DDE7F} = {490D5A06-F6BA-4941-8A2A-D7A3E005D685}
+		{E9B0C4EC-7EE1-4F04-9E46-8111B93D269E} = {490D5A06-F6BA-4941-8A2A-D7A3E005D685}
+		{B0A13D4F-6324-49A4-94B2-2F3867B84688} = {490D5A06-F6BA-4941-8A2A-D7A3E005D685}
 		{5279F2B1-D276-4C32-8D1D-5C2DF0A65D7A} = {E9B0C4EC-7EE1-4F04-9E46-8111B93D269E}
 		{277E1BC9-B2A8-4AB1-9E1F-D3B3A6F49F7F} = {5279F2B1-D276-4C32-8D1D-5C2DF0A65D7A}
 		{81609441-4AB1-48E4-8217-019B73B5F08C} = {E9B0C4EC-7EE1-4F04-9E46-8111B93D269E}
