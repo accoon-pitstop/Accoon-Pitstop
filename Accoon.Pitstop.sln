@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.421
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28902.138
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{041A6CB8-31D8-484A-B678-89DB2C120E23}"
 	ProjectSection(SolutionItems) = preProject
@@ -9,6 +9,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{041A
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "compose", "compose", "{24E94928-D6D3-4FC0-B564-A50F5DA9749A}"
+	ProjectSection(SolutionItems) = preProject
+		compose\docker-compose.yml = compose\docker-compose.yml
+		compose\protainer-docker-compose.yml = compose\protainer-docker-compose.yml
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{490D5A06-F6BA-4941-8A2A-D7A3E005D685}"
 EndProject

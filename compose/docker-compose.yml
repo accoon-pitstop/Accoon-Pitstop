@@ -1,0 +1,14 @@
+version: "3.5"
+
+services:
+  api:
+    image: chathurangasandun/accoon.pitstop.customermanagement:latest
+    ports:
+      - '5001:5000'
+    networks:
+      - pitstop
+
+networks:
+  pitstop:
+    name: pitstop-network
+    external: true
