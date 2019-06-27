@@ -1,5 +1,5 @@
 #!/bin/bash
-REPOSITORIES=(Pitstop-CustomerManagement )
+REPOSITORIES=(Pitstop-VehicleManagement)
 
 if [ "$1" = "-p" ]
   then
