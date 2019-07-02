@@ -92,6 +92,26 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Persistence", "Persistence"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Accoon.Pitshop.VehicleApi.Persistence", "..\Pitstop-VehicleManagement\Pitstop-VehicleManagement\src\Pitshop.VehicleApi\Accoon.Pitshop.VehicleApi.Persistence\Accoon.Pitshop.VehicleApi.Persistence.csproj", "{445C1150-EFEE-49D6-903A-441A1B01CBA1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiGateway", "ApiGateway", "{4196D026-018B-420C-A653-0ED8E8B1743B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BaseApiGateway", "BaseApiGateway", "{D90C206D-0492-4DF7-9CD3-26D15636C9AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{25FC06A3-DCA5-498C-8A06-73258D6FAA71}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{D6ACD3EF-6D30-442B-BBEF-5E8117EE2BEF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{08A69D66-B751-4C9E-AD5E-7FB57E66A3E7}"
+	ProjectSection(SolutionItems) = preProject
+		..\Pitstop.ApiGateway\.travis.yml = ..\Pitstop.ApiGateway\.travis.yml
+		..\Pitstop.ApiGateway\scripts\docker-build-local.sh = ..\Pitstop.ApiGateway\scripts\docker-build-local.sh
+		..\Pitstop.ApiGateway\scripts\docker-publish.sh = ..\Pitstop.ApiGateway\scripts\docker-publish.sh
+		..\Pitstop.ApiGateway\scripts\dotnet-build-local.sh = ..\Pitstop.ApiGateway\scripts\dotnet-build-local.sh
+		..\Pitstop.ApiGateway\scripts\dotnet-build.sh = ..\Pitstop.ApiGateway\scripts\dotnet-build.sh
+		..\Pitstop.ApiGateway\scripts\dotnet-publish.sh = ..\Pitstop.ApiGateway\scripts\dotnet-publish.sh
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pitstop.ApiGateway", "..\Pitstop.ApiGateway\src\Pitstop.ApiGateway\Pitstop.ApiGateway.csproj", "{034D132B-2E0A-40F1-9985-6C59D19376BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -138,6 +158,10 @@ Global
 		{445C1150-EFEE-49D6-903A-441A1B01CBA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{445C1150-EFEE-49D6-903A-441A1B01CBA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{445C1150-EFEE-49D6-903A-441A1B01CBA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{034D132B-2E0A-40F1-9985-6C59D19376BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{034D132B-2E0A-40F1-9985-6C59D19376BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{034D132B-2E0A-40F1-9985-6C59D19376BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{034D132B-2E0A-40F1-9985-6C59D19376BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -172,8 +196,14 @@ Global
 		{28A973D9-101A-4D71-BC45-972129AB1BD2} = {8268AE8B-6523-428C-8CCC-7C3745A1531C}
 		{660CC091-334A-484F-AF04-1066D56F4897} = {1C8812B9-EFE6-4408-B811-11A82B59240A}
 		{445C1150-EFEE-49D6-903A-441A1B01CBA1} = {660CC091-334A-484F-AF04-1066D56F4897}
+		{4196D026-018B-420C-A653-0ED8E8B1743B} = {490D5A06-F6BA-4941-8A2A-D7A3E005D685}
+		{D90C206D-0492-4DF7-9CD3-26D15636C9AF} = {4196D026-018B-420C-A653-0ED8E8B1743B}
+		{25FC06A3-DCA5-498C-8A06-73258D6FAA71} = {D90C206D-0492-4DF7-9CD3-26D15636C9AF}
+		{D6ACD3EF-6D30-442B-BBEF-5E8117EE2BEF} = {D90C206D-0492-4DF7-9CD3-26D15636C9AF}
+		{08A69D66-B751-4C9E-AD5E-7FB57E66A3E7} = {D90C206D-0492-4DF7-9CD3-26D15636C9AF}
+		{034D132B-2E0A-40F1-9985-6C59D19376BA} = {25FC06A3-DCA5-498C-8A06-73258D6FAA71}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {6E23C0DE-8247-44EE-95A5-86D3F39965BE}
+		SolutionGuid = {BF56D5D5-65D8-44C9-BEA5-C83A4AA6C81C}
 	EndGlobalSection
 EndGlobal

@@ -1,5 +1,5 @@
 #!/bin/bash
-REPOSITORIES=(Pitstop-VehicleManagement)
+REPOSITORIES=(Pitstop-VehicleManagement Pitstop-CustomerManagement Pitstop.ApiGateway)
 
 if [ "$1" = "-p" ]
   then
